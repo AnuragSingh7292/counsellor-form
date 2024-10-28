@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0,0,0.5);
+}
+
+ form
+ {
+     width:500px;
+     margin: 50px auto;
+     background-color: #fefefe;
+     padding: 40px;
+     border-radius: 20px;
+     box-shadow: 0 0 rgba(0, 0, 0, 0.1);
+     font-size: 17px;
+ }
+
+ h2{
+    text-align: center;
+    margin: 20px;
+    color: rgb(15, 155, 15);
+    font-family: "Gill Sans", sans-serif;
+ }
+ 
+ label{
+     display: inline-block;
+     margin-bottom: 10px;
+ }
+ 
+/* Header styling */
+h2 {
+    text-align: center;
+    color: rgb(15, 155, 15);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Label styling */
+form label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input fields */
+ form input[type="text"],
+form input[type="email"],
+form input[type="file"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+ } 
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+form button[type="submit"] 
+{
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover 
+{
+    background-color: #0056b3;
+}

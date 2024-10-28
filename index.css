@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(https://akm-img-a-in.tosshub.com/sites/resources/campus/prod/img/campusview/2023/8/campus181bb11e6753c1202201043834.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 15px;
+}
+
+button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(45, 49, 110);
+    transition: opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+    font-size: 20px;
+}
